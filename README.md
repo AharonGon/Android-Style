@@ -40,3 +40,27 @@ Graphic designs for Android Studio components
 </layer-list>
 ```
 
+![image](https://github.com/AharonGon/Android-Style/assets/78660802/32723ac2-9514-4c85-98f6-3a66e8ab0bee)
+
+
+```
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- צור מסגרת שחורה באמצעות קווים שחורים -->
+
+
+    <!-- שכבה נוספת עבור שילוב שני הצבעים -->
+    <item android:left="2dp" android:top="2dp" android:right="2dp" android:bottom="0dp">
+        <shape android:shape="rectangle">
+            <gradient
+                android:type="linear"
+                android:startColor="#C8CDE6"
+                android:endColor="#667DFD"
+                android:angle="90"/>
+            <corners android:radius="20dp" />
+
+        </shape>
+    </item>
+</layer-list>
+```
+
+
