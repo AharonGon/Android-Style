@@ -64,5 +64,32 @@ Graphic designs for Android Studio components
     </item>
 </layer-list>
 ```
+# For EditText
+
+![image](https://github.com/AharonGon/Android-Style/assets/78660802/c3dad65f-b6ba-4600-82ae-954ff39c034c)
+
+```
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- מסגרת ריבועית בצבע שחור -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#000000" /> <!-- צבע ירוק בהיר -->
+            <corners android:radius="8dp" /> <!-- פינות מעוגלות עם רדיוס -->
+        </shape>
+    </item>
+
+    <!-- אמצע שקוף (שקוף) -->
+    <item android:left="1dp" android:top="1dp" android:right="1dp" android:bottom="1dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#FFFFFF" />
+            <corners android:radius="8dp" /><!-- צבע שקוף -->
+        </shape>
+    </item>
+
+</layer-list>
+
+```
+
 
 
